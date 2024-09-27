@@ -20,6 +20,7 @@ export default function CardContainer({ section }) {
             <Card
               key={card.id}
               card={card}
+              sectionId = {section.id}
               index={index}
               onDelete={() => handleDeleteCard(card.id)}
             />
